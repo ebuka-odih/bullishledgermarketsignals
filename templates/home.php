@@ -67,7 +67,7 @@
         
         <div class="text-center mb-1">
             <div class="bg-teal-400 rounded-full p-3 inline-block">
-                <i class="fas fa-arrow-down text-white text-2xl"></i>
+                <i class="fas fa-arrow-down text-white "></i>
             </div>
         </div>
         <!-- Join Telegram Button -->
