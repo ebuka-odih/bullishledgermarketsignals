@@ -1,0 +1,16 @@
+Image placeholders for Bullish Ledger Market Signals
+
+Replace these with actual images:
+- trader-hero.jpg: Professional trader image for hero section
+- crypto-banner.jpg: Cryptocurrency/trading banner for Telegram mockup
+
+You can use stock photos from sites like:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+
+Search for terms like:
+- "professional trader"
+- "cryptocurrency trading"
+- "financial charts"
+- "business person" 

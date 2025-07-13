@@ -1,0 +1,637 @@
+/* Custom CSS for Bullish Ledger Market Signals */
+
+/* Global Styles */
+:root {
+    --primary-green: #28a745;
+    --secondary-green: #20c997;
+    --primary-blue: #007bff;
+    --dark-bg: #212529;
+    --light-bg: #f8f9fa;
+}
+
+/* Reset all margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove all gaps and spacing */
+.flex {
+    gap: 0 !important;
+}
+
+.flex>* {
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.main-content {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Navigation Styles */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-green) !important;
+}
+
+/* Trading Session Card */
+.trading-session-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 4px solid rgba(40, 167, 69, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+}
+
+.trading-session-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Trading Session Overlay Section */
+.trading-session-overlay-section {
+    position: relative;
+    z-index: 10;
+    margin-top: -4rem;
+}
+
+/* Telegram Join Section */
+.telegram-join-section {
+    background: #f8f9fa;
+}
+
+.telegram-join-section .border-primary-blue {
+    border-color: #007bff;
+}
+
+.telegram-join-section .bg-teal-400 {
+    background-color: #4fd1c7;
+}
+
+.telegram-join-button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+
+.telegram-join-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+}
+
+/* Override Tailwind padding */
+.pt-16 {
+    padding-top: 0 !important;
+}
+
+/* Override Tailwind padding */
+.p-8 {
+    padding: 4.3rem !important;
+}
+
+/* Override for specific elements that need normal padding */
+.trading-session-card .p-6 {
+    padding: 1.5rem !important;
+}
+
+.trading-session-card .p-8 {
+    padding: 2rem !important;
+}
+
+/* Hero Banner Section */
+.hero-banner-section {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 64px !important;
+    /* Account for fixed navbar height */
+    min-height: 35vh;
+}
+
+.hero-left-content {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    padding: 2rem;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.hero-text-content {
+    text-align: left;
+    color: white;
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero-right-content {
+    position: relative;
+    min-height: 250px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.hero-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+}
+
+.hero-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 250px;
+}
+
+.hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border-top: 3px solid rgba(40, 167, 69, 0.3);
+}
+
+.overlay-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #212529;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.overlay-slots {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 0.5rem;
+}
+
+.overlay-cta {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+/* Trading Session Section */
+.trading-session-section {
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+}
+
+.trading-session-section h2 {
+    font-weight: 800;
+    color: var(--dark-bg);
+    margin-bottom: 1rem;
+}
+
+.cta-section {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+.cta-section .btn-primary {
+    background: linear-gradient(135deg, var(--primary-blue), #0056b3);
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.cta-section .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+}
+
+/* Telegram Mockup Section */
+.telegram-mockup-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.mockup-content h3 {
+    font-weight: 800;
+    color: var(--dark-bg);
+    line-height: 1.2;
+}
+
+.arrow-indicator {
+    color: var(--primary-green);
+    margin-left: 2rem;
+}
+
+.telegram-interface-mockup {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.mockup-container {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.telegram-header {
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    padding: 1rem;
+}
+
+.chat-avatar {
+    width: 45px;
+    height: 45px;
+}
+
+.message-bubble {
+    max-width: 85%;
+    word-wrap: break-word;
+}
+
+.message-bubble.bg-success {
+    background: linear-gradient(135deg, var(--primary-green), var(--secondary-green)) !important;
+}
+
+.signal-alert {
+    font-size: 0.9rem;
+    background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+    border-left: 4px solid var(--primary-blue);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+/* Features Section */
+.features-section {
+    background: var(--light-bg);
+}
+
+.feature-card {
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
+}
+
+.feature-icon {
+    margin-bottom: 1.5rem;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-blue), #0056b3);
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, var(--primary-green), var(--secondary-green));
+    border: none;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+    .hero-left-content {
+        min-height: 200px;
+        padding: 1.5rem 1rem;
+        text-align: center;
+    }
+
+    .hero-text-content {
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .hero-right-content,
+    .hero-image-wrapper {
+        min-height: 200px;
+    }
+
+    .hero-banner-image {
+        min-height: 200px;
+    }
+
+    .hero-overlay {
+        padding: 1rem;
+    }
+
+    .overlay-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-banner-section {
+        padding-top: 64px;
+    }
+
+    .trading-session-overlay-section {
+        margin-top: -3rem;
+    }
+
+    .hero-left-content {
+        min-height: 200px;
+        padding: 2rem 1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    .hero-right-content,
+    .hero-image-wrapper {
+        min-height: 200px;
+    }
+
+    .hero-banner-image {
+        min-height: 200px;
+    }
+
+    .hero-overlay {
+        padding: 1rem;
+    }
+
+    .overlay-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .overlay-slots {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .overlay-cta {
+        font-size: 0.9rem;
+    }
+
+    .mockup-content h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .arrow-indicator {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .telegram-interface-mockup {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-banner-section {
+        padding-top: 64px;
+    }
+
+    .trading-session-overlay-section {
+        margin-top: -2rem;
+    }
+
+    .hero-left-content {
+        min-height: 180px;
+        padding: 2rem 1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.3;
+    }
+
+    .hero-right-content,
+    .hero-image-wrapper {
+        min-height: 180px;
+    }
+
+    .hero-banner-image {
+        min-height: 180px;
+    }
+
+    .hero-overlay {
+        padding: 0.75rem;
+    }
+
+    .overlay-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .overlay-slots {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .overlay-cta {
+        font-size: 0.8rem;
+    }
+
+    .cta-section {
+        padding: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Utility Classes */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, var(--primary-green), var(--secondary-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(135deg, var(--dark-bg), #343a40) !important;
+}
+
+.social-links a {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-green) !important;
+}
