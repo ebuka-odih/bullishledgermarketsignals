@@ -98,22 +98,7 @@
                     <h5 class="text-xl font-bold mb-2">Bullish Ledger Market Signals</h5>
                     <p class="text-gray-300">Unlock Your Trading Potential with Personalized Coaching</p>
                 </div>
-                <div class="text-left md:text-right">
-                    <div class="flex space-x-4 justify-start md:justify-end">
-                        <a href="#" class="text-gray-300 hover:text-primary-green transition-colors text-xl">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-primary-green transition-colors text-xl">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-primary-green transition-colors text-xl">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-primary-green transition-colors text-xl">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
+                
             </div>
             <hr class="border-gray-700 my-6">
             <div class="text-center">
