@@ -71,12 +71,12 @@
         <!-- Mobile Navigation -->
         <div class="mobile-menu hidden md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-800">
-                <a href="#trading-course" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">TRADING COURSE</a>
-                <a href="#trading-journal" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">TRADING JOURNAL</a>
-                <a href="#newsletter" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">NEWSLETTER</a>
-                <a href="#podcast" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">PODCAST</a>
-                <a href="#indicator" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">INDICATOR</a>
-                <a href="#blog" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">BLOG</a>
+                <a href="https://t.me/bullishledgermarketbot" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">TRADING COURSE</a>
+                <a href="https://t.me/bullishledgermarketbot" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">TRADING JOURNAL</a>
+                <a href="https://t.me/bullishledgermarketbot" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">NEWSLETTER</a>
+                <a href="https://t.me/bullishledgermarketbot" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">PODCAST</a>
+                <a href="https://t.me/bullishledgermarketbot" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">INDICATOR</a>
+                <a href="https://t.me/bullishledgermarketbot" class="text-gray-300 hover:text-primary-green block px-3 py-2 text-sm font-medium">BLOG</a>
                 <a href="https://t.me/edwardkaylian" class="bg-primary-blue hover:bg-blue-700 text-white block px-3 py-2 rounded text-sm font-medium mt-2">
                     <i class="fab fa-telegram mr-2"></i>
                     JOIN TELEGRAM
