@@ -34,7 +34,10 @@
                 </p>
                 <div class="bg-primary-green/10 rounded-lg p-4 md:p-5">
                     <p class="text-base md:text-lg text-gray-700 font-medium tracking-wide">
-                        Limited spots available for personalized trading mentorship
+                    <a href="https://t.me/bullishledgermarketbot" class="telegram-join-button block w-full bg-primary-blue hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg hover:shadow-xl">
+                    Click to join personalized trading mentorship
+                    </a>    
+                
                     </p>
                 </div>
             </div>
@@ -52,7 +55,10 @@
                     <i class="fab fa-telegram text-white text-2xl"></i>
                 </div>
                 <div class="text-center">
-                    <h3 class="text-xl md:text-2xl font-bold text-gray-900">CLICK HERE TO JOIN</h3>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900">
+                        <a href="https://t.me/bullishledgermarketbot" target="_blank">
+                        CLICK HERE TO JOIN</a>
+                    </h3>
                     <p class="text-gray-600 text-sm md:text-base">Receive Free Signals</p>
                 </div>
             </div>
@@ -70,20 +76,14 @@
         
         <!-- Join Telegram Button -->
         <div class="text-center mb-8">
-            <a href="#telegram" class="telegram-join-button block w-full bg-primary-blue hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg hover:shadow-xl">
+            <a href="https://t.me/bullishledgermarketbot" target="_blank" class="telegram-join-button block w-full bg-primary-blue hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg hover:shadow-xl">
                 <i class="fab fa-telegram mr-3"></i>
                 JOIN TELEGRAM
             </a>
         </div>
         
         <!-- Description Text -->
-        <div class="text-center">
-            <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
-                Join and Start trade session <strong>FREE</strong> on Telegram<br>
-                with over <strong>20,000</strong> users by clicking the button<br>
-                <strong>without paying anything!</strong>
-            </p>
-        </div>
+       
     </div>
 </section>
 
@@ -129,5 +129,23 @@
             updateSlider();
         }, 5000);
     </script>
+</section>
+
+<!-- Telegram Join Section -->
+<section class="py-8 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        
+        <!-- Join Telegram Button -->
+        <div class="text-center mb-8">
+            <a href="https://t.me/bullishledgermarketbot" target="_blank" class="telegram-join-button block w-full bg-primary-blue hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg hover:shadow-xl">
+                <i class="fab fa-telegram mr-3"></i>
+                JOIN TELEGRAM
+            </a>
+        </div>
+        
+        <!-- Description Text -->
+       
+    </div>
 </section>
 
