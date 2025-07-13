@@ -93,16 +93,16 @@
         <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-900">
             Join and Start trade session <span class="text-primary-green">FREE</span> on Telegram with over <span class="text-primary-green">20,000 users</span> by clicking the button without paying anything!
         </h2>
-        <div class="relative w-full overflow-hidden rounded-2xl shadow-lg" id="slider-container">
-            <div class="flex transition-transform duration-700" id="slider-track">
-                <img src="assets/images/1.jpeg" alt="Slider 1" class="w-full object-cover flex-shrink-0" style="max-height: 420px;">
-                <img src="assets/images/2.jpeg" alt="Slider 2" class="w-full object-cover flex-shrink-0" style="max-height: 420px;">
-                <img src="assets/images/3.jpeg" alt="Slider 3" class="w-full object-cover flex-shrink-0" style="max-height: 420px;">
-                <img src="assets/images/4.jpeg" alt="Slider 4" class="w-full object-cover flex-shrink-0" style="max-height: 420px;">
+        <div class="relative w-full overflow-x-hidden min-h-[12rem] sm:min-h-[18rem] md:min-h-[26rem] rounded-2xl shadow-lg" id="slider-container">
+            <div class="flex transition-transform duration-700 gap-2" id="slider-track">
+                <img src="assets/images/1.jpeg" alt="Slider 1" class="w-full h-48 sm:h-72 md:h-[420px] object-cover flex-shrink-0 rounded-xl" />
+                <img src="assets/images/2.jpeg" alt="Slider 2" class="w-full h-48 sm:h-72 md:h-[420px] object-cover flex-shrink-0 rounded-xl" />
+                <img src="assets/images/3.jpeg" alt="Slider 3" class="w-full h-48 sm:h-72 md:h-[420px] object-cover flex-shrink-0 rounded-xl" />
+                <img src="assets/images/4.jpeg" alt="Slider 4" class="w-full h-48 sm:h-72 md:h-[420px] object-cover flex-shrink-0 rounded-xl" />
             </div>
             <!-- Slider Controls -->
-            <button id="slider-prev" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-700 rounded-full p-2 shadow-md z-10"><i class="fas fa-chevron-left"></i></button>
-            <button id="slider-next" class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-700 rounded-full p-2 shadow-md z-10"><i class="fas fa-chevron-right"></i></button>
+            <button id="slider-prev" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-700 rounded-full p-3 sm:p-4 shadow-md z-10 text-xl sm:text-2xl"><i class="fas fa-chevron-left"></i></button>
+            <button id="slider-next" class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-700 rounded-full p-3 sm:p-4 shadow-md z-10 text-xl sm:text-2xl"><i class="fas fa-chevron-right"></i></button>
         </div>
     </div>
     <script>
