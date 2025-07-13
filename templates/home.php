@@ -149,7 +149,7 @@
             <div class=" rounded-lg p-4 md:p-5">
                     <p class="text-base md:text-lg text-gray-700 font-medium tracking-wide">
                     <a href="https://t.me/edwardkaylian" class="telegram-join-button block w-full bg-primary-blue hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg hover:shadow-xl">
-                    JOIN TELEGRAM
+                    CONTACT ME
                     </a>    
                 
                     </p>
